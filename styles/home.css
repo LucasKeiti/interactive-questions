@@ -35,3 +35,34 @@ main h2{
     font-size: clamp(20px, 5vw, 2.8rem) ;
     margin-bottom: 2.4rem;
 }
+
+input {
+    border: .2rem solid var(--grey-blue);
+    padding: 0.1.6rem;
+}
+
+input, button, .button{
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.separator div:nth-child(2){
+    color: var(--grey-blue);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 0 1.35rem;
+    line-height: 0;
+}
+
+.separator div:nth-child(1),
+.separator div:nth-child(3){
+    background: var(--grey-blue);
+    width: 100%;
+}
+
