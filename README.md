@@ -20,4 +20,8 @@ O Rocket.Q é uma aplicação de interação através de perguntas, sendo possí
 - Express
 - SQLite
 
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 ### In progress...
