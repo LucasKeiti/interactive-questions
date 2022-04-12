@@ -66,3 +66,25 @@ input, button, .button{
     width: 100%;
 }
 
+/*----------Create balls----------*/
+
+.ball{
+    background: var(--blue);
+    width: 21.2rem;
+    height: 21.2rem;
+    clip-path: circle();
+    position: fixed;
+    opacity: 0.1;
+}
+
+.ball.top{
+    top: -46rem;
+    width: 63.3rem;
+    right: -35rem;
+    height: 63.3rem;
+}
+
+.ball.bottom{
+    bottom: -15rem;
+    right: 5.6rem;
+}
