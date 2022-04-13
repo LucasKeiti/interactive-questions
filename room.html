@@ -12,23 +12,42 @@
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id ="room" class="content">
-        <header>
-            <img src="assets/Logo.svg" alt="logo"/>
-            <div class="buttons">
-            <div class="button outlined">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="room" class="content">
+            <header>
+                <a href="#">
+                <img src="assets/Logo.svg" alt="logo"/>
+                </a>
+                <div class="buttons">
+                <div class="button outlined">
                 #323243
                 <img src="assets/copy.svg"/>
-            </div>
-            <a href="#">
-                <img src="assets/userswhite.svg">
+                </div>
+                <a href="#" class="button">
+                <img src="assets/userswhite.svg" alt="Criar Sala"/>
                 Criar Sala
                 </a>
                 </div>
-        </header>
-</div>
-</body>
+            </header>
+
+            <main>
+                <section id="question-form">
+                    <h2>Faça sua pergunta</h2>
+                    <form action="">
+                        <label class="sr-only" for-id="question">O que você quer perguntar?</label>
+                        <textarea name="question" id="question" placeholder="O que você quer perguntar"></textarea>
+                        <footer>
+                            <div>
+                                <img src="assets/lock.svg" alt="Cadeado">
+                                Esta pergunta é anônima
+                            </div>
+                            <button>Enviar</button>
+                        </footer>
+                    </form>
+                </section>
+            </main>
+        </div>
+    </body>
 </html>
