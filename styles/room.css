@@ -49,6 +49,7 @@
     border: .2rem solid var(--grey-blue);
     padding: 1.6rem;
     border-radius: 0  .8rem .8rem .8rem;
+    margin-bottom: 1.6rem;
 }
 
 #question-form textarea{
@@ -81,6 +82,14 @@
 
 #question-form form footer > div img{
     margin-right: 0.9rem;
+}
+
+#question-form form footer button{
+    height: auto;
+    padding: .8rem 2.4rem;
+    line-height: 2.4rem;
+
+
 }
 
 
