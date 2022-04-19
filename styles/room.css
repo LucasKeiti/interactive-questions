@@ -89,9 +89,19 @@
     padding: .8rem 2.4rem;
     line-height: 2.4rem;
 
-
 }
 
+.question-wrapper{
+    background: var(--light-blue);
+    margin-bottom: .8rem;
+    border-radius: 0 .8rem .8rem .8rem;
+    padding: 2.4rem;
+}
+
+.question-wrapper .question-content{
+    display: flex;
+    align-items: center;
+}
 
 
 
