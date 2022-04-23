@@ -103,6 +103,12 @@
     align-items: center;
 }
 
+.question-wrapper .question-content .user{
+    background: var(--blue);
+    clip-path: circle();
+    padding: 1.4rem;
+}
+
 .question-wrapper .question-content p{
     margin-left: 1.6rem;
 }
@@ -121,6 +127,12 @@
     margin-right: .8rem;
 }
 
-.question-wrapper .actions > a{
+.question-wrapper .actions > a + a{
     margin-left: 2.4rem;
+}
+
+/*--------- Question Read ---------*/
+
+.question-wrapper.read{
+    background: var(--grey-medium);
 }
