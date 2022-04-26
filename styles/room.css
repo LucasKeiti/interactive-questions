@@ -136,3 +136,12 @@
 .question-wrapper.read{
     background: var(--grey-medium);
 }
+
+.question-wrapper.read{
+    background: var(--grey-medium);
+}
+
+.question-wrapper.read .question-content{
+    background: var(--grey-blue);
+}
+
