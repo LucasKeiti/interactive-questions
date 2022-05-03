@@ -37,7 +37,7 @@
                     <h2>Faça sua pergunta</h2>
                     <form action="">
                         <label class="sr-only" for-id="question">O que você quer perguntar?</label>
-                        <textarea name="question" id="question" placeholder="O que você quer perguntar"></textarea>
+                        <textarea name="question" id="question" placeholder="O que você quer perguntar?"></textarea>
                         <footer>
                             <div>
                                 <img src="assets/lock.svg" alt="Cadeado">
@@ -50,6 +50,7 @@
                 <section id="questions">
                     <h2 class="sr-only">Perguntas da Comunidade</h2>
                     <div class="questions">
+
                         <div class="question-wrapper">
                             <div class="question-content">
                                 <div class="user">
@@ -71,8 +72,8 @@
                         </div>
                     </div>
 
-                    <div class="question-wrapper">
-                        <div class="question-content">
+                        <div class="question-wrapper">
+                            <div class="question-content">
                             <div class="user">
                                 <img src="assets/user.svg" alt="Avatar">
                             </div>
@@ -98,7 +99,7 @@
                             <img src="assets/user.svg" alt="Avatar">
                         </div>
                         <div class="question">
-                            <p>Você já sabe quais as bases você precisa melhorar para alcançar o seu próximo nível de maestria?</p>
+                            <p>Qual a diferença entre const, var e let no Javascript?</p>
                         </div>
                     </div>
                     <div class="actions"></div>
@@ -113,26 +114,45 @@
                 </div>
             </div>
 
-                    <div class="question-wrapper read">
-                        <div class="question-content">
-                            <div class="user">
-                                <img src="assets/user.svg" alt="Avatar">
-                            </div>
-                            <div class="question">
-                                <p>O que é Script?</p>
-                            </div>
-                        </div>
-                        <div class="actions"></div>
-                      
-                        <a href="#" class="delete">
-                            <img src="assets/trash.svg" alt="Excluir">
-                            Excluir
-                        </a>
+            <div class="question-wrapper read">
+                <div class="question-content">
+                    <div class="user">
+                        <img src="assets/user.svg" alt="Avatar">
+                    </div>
+                    <div class="question">
+                        <p>O que é Script?</p>
                     </div>
                 </div>
+                <div class="actions"></div>
+              
+                <a href="#" class="delete">
+                    <img src="assets/trash.svg" alt="Excluir">
+                    Excluir
+                </a>
+            </div>
         </div>
+    </div>
                 </section>
             </main>
+        </div>
+
+        <!-----MODAL----->
+        <div class ="modal-wrapper">
+            <div class="modal">
+                <h2>Excluir</h2>
+                <p>Tem certeza que você deseja excluir essa pergunta?</p>
+
+                <form>
+                    <label class ="sr-only" for-id="password">Digite a sua senha admin</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha"/>
+
+                    <div class="buttons">
+                        <div class="button">Cancelar</div>
+                        <button>Sim, excluir</button>
+                    </div>
+                </form>
+            </div>
+
         </div>
     </body>
 </html>

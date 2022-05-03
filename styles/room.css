@@ -100,7 +100,7 @@
 
 .question-wrapper .question-content{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .question-wrapper .question-content .user{
@@ -111,6 +111,10 @@
 
 .question-wrapper .question-content p{
     margin-left: 1.6rem;
+    word-break: break-word;
+    display: flex;
+    align-items: center;
+    min-height: 5.5rem;
 }
 .question-wrapper .actions{
     display: flex;
